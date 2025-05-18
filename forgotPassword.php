@@ -23,12 +23,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         try {
             $mail->isSMTP();
-            $mail->Host = "smtp.gmail.com";
-            $mail->SMTPAuth = true;
-            $mail->Username = "testmailsenderphpajax@gmail.com";
-            $mail->Password = "yshoatznhhjmpuhm";
-            $mail->SMTPSecure = "ssl";
-            $mail->Port = 465;
+            $mail->Host = "************";
+            $mail->SMTPAuth = //;
+            $mail->Username = "****************";
+            $mail->Password = "***************";
+            $mail->SMTPSecure = "***";
+            $mail->Port =//;
 
             $mail->setFrom('no-reply@tvojadomena.com', 'No Reply');
             $mail->addAddress($email);
