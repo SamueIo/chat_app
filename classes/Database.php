@@ -1,15 +1,7 @@
 <?php
 class Database{
     public static function connDB(){
-        $db_host="sql201.infinityfree.com";
-        $db_user="if0_38742290";
-        $db_password="SxvxsAptlSQNEA";
-        $db_name="if0_38742290_pigeon" ;
-        // $db_host="localhost";
-        // $db_user="samuello";
-        // $db_password="e_shopadmin";
-        // $db_name="chat";
-        
+        //DB conn.....
         
 
         try{
